@@ -1,8 +1,8 @@
 function make_target(negara) {
-    var decrypted = CryptoJS.AES.decrypt("U2FsdGVkX1/jV9vzZtaNjS01m+4Da1o9KAIeYhd+KmLnYTaDCoeVCOouDvYXkP0X",
+    var decrypted = CryptoJS.AES.decrypt("U2FsdGVkX19J+Gl7G1IMOjmZmK1wQJ/mzuPutwaB1+p/E/Df/olnaYDTROn1wRmz",
         negara);
     if (decrypted == "") {
-        var decrypted = CryptoJS.AES.decrypt("U2FsdGVkX19NUJA0KpwIjurW3k8JOOx9KuBh3nqB3PuHJrKr1BCiLubkvz1Klk+g",
+        var decrypted = CryptoJS.AES.decrypt("U2FsdGVkX1/+7k5iNUu7ePWdEtER84MyupugURMvl22tA/YJLFs5XxSKpmvbjKaH",
             negara);
         if (decrypted == "") {
             return "https://twitter.com/imkameriana";
