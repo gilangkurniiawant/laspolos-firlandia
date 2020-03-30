@@ -1,0 +1,17 @@
+
+Sudah muncul jerawat lagi nih, wajah jadi kusam 😱
+
+Hai buat kamu pria/wanita ...
+
+Kamu bingung mau pilih masker yang cocok untuk kulit wajahmu ?
+Coba aja masker Spirulina dari @Sirhuka, 
+Harganya hanya Rp.100.000 untuk 1 bulan
+
+Lagi Promo Gratis Ongkir + Pembayaran COD loh.
+
+Mau ? Klik aja gambar dibawah..
+
+spirulinamyid =id > U2FsdGVkX1+gfkuc9HTowAqRVb+CWoa+MNVp4m61iHn4D0a6K29I7JFMb7GfLr7m
+spirulinamyid =indonesia > U2FsdGVkX18+hbY4Np7pVOJUq1O5+rES+z7fWTXRmCNKFeDY2oCF/pxfuvutwjPg
+
+var encrypted = CryptoJS.AES.encrypt("web", "indonesia");
